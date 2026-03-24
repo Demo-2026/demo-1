@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 import os
 
-def load_data():
+def load_data(): #to load data
     # Define paths relative to this script (src/ -> demo-1/)
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     csv_path = os.path.join(base_dir, 'data', 'raw', 'customers_raw.csv')
